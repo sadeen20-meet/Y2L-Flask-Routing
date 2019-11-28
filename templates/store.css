@@ -1,7 +1,25 @@
+
+body {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAe1BMVEUAAAD///+wsLB9fX1ERETa2tq1tbXDw8NkZGQEBAT39/enp6fw8PB3d3eGhobQ0NDm5uYmJiY/Pz8TExNOTk5dXV0yMjKKjItwcHDFxcVAQEC+vr6VlZXf39/s7Ow6OjpISEidnZ2CgoIcHBxUVFSSkpJoammhoaE1NTWhZbsWAAAExElEQVR4nO3dDVPaTBSGYQhiw1dEiwalFE1L9P//wpeglc2zkfMe0g+Qe8dOO+7TQ3KRdKYnu9gZ/BqdzrRbH1mnPh5kvvu1MwhHZyTzV1KgIVAv0BlLYKIVUgkMO1Li3jgJd4FLPYTXYWHdxFiWhTdwCFZ9fPFj7S8AFljbccBtuL8AWGA1nitYYFUDLEcALEcALEcALEcALEcALEcALEfgE//fcOC1OPUr6+J9rO77tbHMbi5q47Yvgcf6/M3Tsh64XHkDV/IKvYd64GEuFa7q8xerZP9J+AuMdsfYCQz1rkrEeKlvwnfjXXzsGoELDegrXGrgXhMauJX5RdsC8+Dogti1gdX3Yv20sGYa0PcrwvqixzCUQGpguQtMfhOW9Y8cWGCBBRZYYIEFFlhggQUWWGB9ZqwfBpa7RRNZmD0cbSceQYsmxEp2oyfjW1Ifzxp4lkAu80ViBHoasA4hedLESAKFzD+1LZDtpjwXyou+Cfomadc4um/NgN4TUVv51joGq63sLvCZH1jwdKfFuYIFVjXAcgTAcgTAcgTAcgTAcgTAcgTAcgTAcgTAcgTAcgROB4sWTVOBEKtN80/7Zu7mXxQ48uZfYHiSbWVvD95dgAcWYIEFFlhggQUWWGCBBRZYYIH1D7Badx1OGOsUNmea52qt/HMXCDdnHvm2XzmEv7/ttx9u+w0GG8qbChz4wKLhAxKdFuf8UQXHiHUsVxZYwQCrqQBYYDWeK1hgVQMsRwAsRwAsRwAsRwAsRwAsR+B0/iNt9fLuFMuyiFqrZu9VsXoaKK1juDIqKFZUQLuFi2Au+PbcqDvVuvq6eh2YSxKjU0s00ObUGgvMNJBbZ7m74cJieq6K5V4Bal7y5jU/sLDcBSKszMJaggUWWGCBBRZYYIEFFlhggQUWWH8aK1rM5sWKWzRmW9Kq4C7QCuvjlWPRuq+FLD17MZaexQvH5CdS7F059jpkfvnStkAqx3CTyUHeS4XV4n0qJNQ1ibrpM1pPq++BVSB6m/etSdyO6MZtXUDbjd2RBL5qQJfaNp+rLr80G59Wgei+3bfadTvGFpa7gIl1rYE7sMACCyywwAILLLDAAgsssMAC63djaYfFjWW3aKxzNVs07gIm1g8NBC2aPZ8Zp5/4lsl8MjE+dE4LTLRAkhkvMdIPnWtdQD/WLlkbL3G5mzm7tvKjBrSt/F0DPLD4GIunO2CBBRZYYIEFFlhggQUWWGCB9fexohaNHsinb9HQ/HM0/4JxhG3lf9CDj9rKPLD4GIunO2CBBRZYYIEFFlhggQUWWGCB9eexjmBzponlLtBqc2a4a7e+I/aAbb9GAXPb77Lttl+7QCrzrm2/AeFZrPzjgYWjAFhggQUWWGCBBRZYYJ0gVv8csV6PtnxZ1cbdt279NKZ39cD18j1wPljj7RiO8vV6vfmVV79Xf1yM62P6NrF+y2TT96mzwRpuoDZfw6IsJnk+z/I8nc3yNM1Hm6nhdmrztfk1LeabkfZuZz83mfm8WFbfrf7y+WBtL6vNOT9NsrKcFGVZ9LKsWt2VvEKNfwWmaVZMyjKbp2Ve/aGYVpPD+MoahMPGin88x/4C/werXuEArA8KvN1Jw+e8PrLFUG9DCexuw/8AcB0sQC9xpcoAAAAASUVORK5CYII=");
+  background-repeat: no-repeat;
+  background-color: #cccccc
+}
+
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
+  text-align: center;
+  font-family: arial;
+  
+}
+
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 20;
   text-align: center;
   font-family: arial;
 }
@@ -25,4 +43,72 @@
 
 .card button:hover {
   opacity: 0.7;
+}
+
+.card1 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card1 button:hover {
+  opacity: 0.7;
+}
+
+
+.black{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 50px;
+  background-color: black;
+  color:white;
+  width:850px
+}
+
+.white{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 30px;
+  background-color:white
+  color:black;
+  width:850px;
+  position: relative;
+  left:60%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position:fixed;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: red;
+}
+
+ .active {
+  background-color: red;
 }

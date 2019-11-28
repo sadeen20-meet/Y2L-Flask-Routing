@@ -1,5 +1,6 @@
 from flask import Flask, request, redirect, url_for, render_template
 from flask import session as login_session
+from database import add_to_cart
 
 app = Flask(__name__)
 app.secret_key = "MY_SUPER_SECRET_KEY"
@@ -7,7 +8,7 @@ app.secret_key = "MY_SUPER_SECRET_KEY"
 
 ##### Code here ######
 
-@app.route("/home")
+@app.route("/")
 def home():
 	return render_template("home.html")
 
@@ -19,6 +20,10 @@ def about():
 def store():
 	return render_template("store.html")
 
+
+@app.route("/cart")
+def cart():
+	return render_template("cart.html")
 
 #####################
 

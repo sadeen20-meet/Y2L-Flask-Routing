@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="store.css">
+	<link rel="stylesheet" type="text/css" href="/static/store.css">
 	<title>Off The Wall</title>
 </head>
 <body>
-	<h1>Spend your money on something that is really worth it !</h1>
+	<style>
+body  {
+  background-image: url("https://www.thecoastnews.com/wp-content/uploads/2019/02/skateboarding_2.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: 1850px;
+}
+</style>
+	 <ul>
+  <li><a href={{ url_for ('home') }}>Home</a></li>
+  <li><a class="active"  href={{ url_for ('store') }}>store</a></li>
+  <li><a href={{ url_for ('cart') }}>cart</a></li>
+  <li><a href={{ url_for ('about') }}>About</a></li>
+	</ul> 
+	<div>
+		<!--<img src="/static/s189772745713394276_p450_i203_w750.jpeg"> -->
+	<a href={{ url_for ('home') }} ></a>
+	
 	<br>
 	<br>
-	<div class="card">
+	<div class="card1">
   <img src="https://images.vans.com/is/image/Vans/D3HY28-HERO?$583x583$" style="width:100%">
   <h1>Vans old skool</h1>
   <p class="price">$49.99</p>
@@ -17,20 +34,20 @@
 	</div>
 	<br>
 	<br>
-	<div class="card">
+	<div class="card " style="margin-left: 500px; margin-top: -560px;">
   <img src="https://scontent.fsdv3-1.fna.fbcdn.net/v/t1.0-9/p960x960/43669667_2233682956874144_6519654278225723392_o.jpg?_nc_cat=104&_nc_oc=AQnPzcQ2fFnewTls9d2Yk008yaA2pTQw1GewD0e7MjYw-FE8wuqkG-cGp1iCh1BalyY&_nc_ht=scontent.fsdv3-1.fna&oh=52ec0a02195e19d01909f5bd127d42cf&oe=5E4B7FC1"style="width:100%">
   <h1>Vans rollerskate</h1>
   <p class="price">$69.99</p>
   <p>go big or go home </p>
-  <p><button>Add to Cart</button></p>
+  <p><button><a href="cart.html">Add to Cart</button></p>
 	</div>
 	<br>
 	<br>
-		<div class="card">
+		<div class="card" style="margin-top: -560px; margin-left: 1020px;">
   <img src="https://i.etsystatic.com/19635589/r/il/6ce0f3/1808837432/il_570xN.1808837432_mk22.jpg"style="width:100%">
   <h1>Vans roses</h1>
-  <p class="price">$69.99</p>
-  <p>roses are red , vans are too </p>
+  <p class="price">$49.99</p>
+  <p>roses are red , vans are too! </p>
   <p><button>Add to Cart</button></p>
 	</div>
 
@@ -41,6 +58,6 @@
 	<a href="home.html">home</a>
 
 
-
+</div>
 </body>
 </html>

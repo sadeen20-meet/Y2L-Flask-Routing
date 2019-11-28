@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Home page</title>
+	<link rel="stylesheet" type="text/css" href="static/home.css">
 </head>
 <body>
-	<h1>welcome to my extremely beautiful store </h1>
-	<h2>opps we're not there yet ! click down below to go there</h2>
-	<a href="store.html">here</a>
+	 <ul>
+  <li><a href={{ url_for ('store') }}>STORE</a></li>
+  <li><a href={{ url_for ('about') }}>about</a></li>
+  <li><a href={{ url_for ('cart') }}>cart</a></li>
+  <li style="float:right"><a class="active"href ={{ url_for ('home') }}>home</a></li>
+	</ul> 
+	<div>
+		<img src="https://i.ytimg.com/vi/Ey-58L7pfb8/maxresdefault.jpg">
+
+	</div>
+
+<!--
+	<a href={{ url_for ('store') }}>here</a>
 	<br>
 	<br>
-	<h2>you can find information about my store in the link down below</h2>
-	<a href="about.html">sadeen</a>
+
+	<a href={{ url_for ('about') }}>about</a>
+	<a href={{ url_for ('cart') }}>cart</a>
 
 
-
+-->
 </body>
 </html>
