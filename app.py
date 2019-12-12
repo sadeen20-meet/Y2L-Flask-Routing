@@ -20,13 +20,16 @@ def about():
 
 @app.route("/store")
 def store():
-	return render_template("store.html")
+	products = query_all()
+	return render_template("store.html",products=products)
+
 
 
 
 @app.route("/cart")
 def cart():
 	return render_template("cart.html")
+	
 
 #####################
 
